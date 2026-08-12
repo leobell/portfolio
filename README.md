@@ -2,7 +2,7 @@
 
 A personal portfolio website showcasing my projects, skills and credentials as a full-stack developer. Built from scratch with plain HTML, Tailwind CSS and vanilla JavaScript — no framework, no build step.
 
-**Live site:** _add your Netlify URL here once deployed_
+**Live site:** _https://leonardo-bell.netlify.app/_
 
 ## Design
 
@@ -73,6 +73,6 @@ Deployed as a static site (e.g. via Netlify drag-and-drop, or GitHub Pages). Sin
 **Leonardo Bell**
 Full-stack developer — MERN stack
 
-- Email: bellleonardo04@gmail.com
-- GitHub: _add your profile link_
-- LinkedIn: _add your profile link_
+- Email: dev.leobell@gmail.com
+- GitHub: _https://github.com/leobell_
+- LinkedIn: _https://www.linkedin.com/in/leonardo-tabe-bell_
