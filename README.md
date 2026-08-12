@@ -2,11 +2,7 @@
 
 A personal portfolio website showcasing my projects, skills and credentials as a full-stack developer. Built from scratch with plain HTML, Tailwind CSS and vanilla JavaScript — no framework, no build step.
 
-<<<<<<< HEAD
-**Live site:** _https://leonardo-bell.netlify.app/_
-=======
 **Live site:** _https://leonardo-bell.netlify.app_
->>>>>>> 0f65f279d923eba3b04e4b9eb0463dc6a5aa5bf5
 
 ## Design
 
