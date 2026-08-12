@@ -73,6 +73,6 @@ Deployed as a static site (e.g. via Netlify drag-and-drop, or GitHub Pages). Sin
 **Leonardo Bell**
 Full-stack developer — MERN stack
 
-- Email: dev.leobell@gmail.com
+- Email: bellleonardo04@gmail.com
 - GitHub: _https://github.com/leobell_
 - LinkedIn: _https://www.linkedin.com/in/leonardo-tabe-bell_
