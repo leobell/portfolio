@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects — Leonardo Bell</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <script src="./tailwind-config.js"></script>
+</head>
+
+<body class="bg-ink text-beige font-sans overflow-x-hidden">
+
+    <aside class="hidden md:flex flex-col justify-between items-center fixed left-6 top-10 bottom-10 z-50">
+        <div class="flex flex-col items-center gap-6">
+            <a href="./index.html" class="text-[10px] tracking-widest uppercase text-beige/60 hover:text-accentpurple transition-colors [writing-mode:vertical-rl] rotate-180">Home</a>
+            <a href="https://www.linkedin.com/in/leonardo-tabe-bell" target="_blank" class="w-9 h-9 flex items-center justify-center border border-beige/20 rounded-md text-beige/70 hover:text-accentpurple hover:border-accentpurple/50 transition-colors text-xs">in</a>
+            <a href="https://github.com/leobell" target="_blank" class="w-9 h-9 flex items-center justify-center border border-beige/20 rounded-md text-beige/70 hover:text-accentblue hover:border-accentblue/50 transition-colors text-xs">gh</a>
+            <a href="mailto:dev.leobell@gmail.com" class="w-9 h-9 flex items-center justify-center border border-beige/20 rounded-md text-beige/70 hover:text-accentpurple hover:border-accentpurple/50 transition-colors text-xs">@</a>
+            <div class="w-px h-20 bg-beige/20 mt-2"></div>
+        </div>
+        <p class="text-[10px] tracking-widest text-beige/40 [writing-mode:vertical-rl] rotate-180">© 2026 Leonardo</p>
+    </aside>
+
+    <div class="flex md:hidden items-center justify-between px-6 py-5 fixed top-0 left-0 right-0 z-50 bg-ink/90 backdrop-blur-sm border-b border-white/10">
+        <a href="./index.html" class="text-xs tracking-widest uppercase text-beige/70">Home</a>
+        <div class="flex gap-5">
+            <a href="https://www.linkedin.com/in/leonardo-tabe-bell" target="_blank" class="text-beige/60 text-xs">in</a>
+            <a href="https://github.com/leobell" target="_blank" class="text-beige/60 text-xs">gh</a>
+        </div>
+    </div>
+    
+    <section class="relative z-10 px-6 md:pl-32 md:pr-16 lg:pl-40 pt-32 pb-24 md:py-24 max-w-6xl">
+
+        <h1 class="reveal font-serif text-[18vw] md:text-[8vw] leading-none text-beige mb-16">Projects</h1>
+
+        <div class="grid md:grid-cols-2 gap-6">
+
+        <div class="reveal reveal-delay-1 group bg-card border border-white/10 rounded-2xl p-8 transition-all duration-300 hover:border-accentpurple/50 hover:-translate-y-1">
+            <p class="text-accentpurple text-xs uppercase tracking-wider mb-4">MERN Stack</p>
+            <h3 class="font-serif text-2xl mb-3 text-beige">E-Learning Platform</h3>
+            <p class="text-beige/60 text-sm leading-relaxed mb-6">
+            A full online course platform, Udemy-style: instructors build courses
+            into modules and lessons, students enroll and track their progress
+            in real time.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+            <span class="text-xs px-3 py-1 rounded-full border border-accentblue/40 text-beige/80">React</span>
+            <span class="text-xs px-3 py-1 rounded-full border border-accentblue/40 text-beige/80">Node.js</span>
+            <span class="text-xs px-3 py-1 rounded-full border border-accentblue/40 text-beige/80">MongoDB</span>
+            <span class="text-xs px-3 py-1 rounded-full border border-accentblue/40 text-beige/80">Tailwind</span>
+            </div>
+            <a href="./projects/e-learning-platform.html" class="inline-flex items-center gap-2 text-sm text-beige group-hover:text-accentpurple transition-colors">
+            View project
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+            </a>
+        </div>
+
+        <div class="reveal reveal-delay-2 border border-dashed border-white/10 rounded-2xl p-8 flex items-center justify-center text-beige/30 text-sm">
+            Next project
+        </div>
+
+        </div>
+
+    </section>
+
+    <footer class="relative z-10 max-w-5xl mx-auto px-6 py-16 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 md:hidden">
+        <p class="text-beige/50 text-sm">© 2026 Leonardo Bell</p>
+        <div class="flex gap-6">
+        <a href="https://github.com/leobell" target="_blank" class="text-beige/60 hover:text-accentpurple transition-colors text-sm">GitHub</a>
+        <a href="https://www.linkedin.com/in/leonardo-tabe-bell" target="_blank" class="text-beige/60 hover:text-accentblue transition-colors text-sm">LinkedIn</a>
+        <a href="mailto:dev.leobell@gmail.com" class="text-beige/60 hover:text-accentpurple transition-colors text-sm">Email</a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

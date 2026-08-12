@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Leonardo Bell</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <script src="./tailwind-config.js"></script>
+</head>
+<body class="bg-ink text-beige font-sans">
+
+    <aside class="hidden md:flex flex-col justify-between items-center fixed left-6 top-10 bottom-10 z-50">
+        <div class="flex flex-col items-center gap-6">
+            <a href="./index.html" class="text-[10px] tracking-widest uppercase text-beige/60 hover:text-accentpurple transition-colors [writing-mode:vertical-rl] rotate-180">Home</a>
+            <a href="https://www.linkedin.com/in/leonardo-tabe-bell" target="_blank" class="w-9 h-9 flex items-center justify-center border border-beige/20 rounded-md text-beige/70 hover:text-accentpurple hover:border-accentpurple/50 transition-colors text-xs">in</a>
+            <a href="https://github.com/leobell" target="_blank" class="w-9 h-9 flex items-center justify-center border border-beige/20 rounded-md text-beige/70 hover:text-accentblue hover:border-accentblue/50 transition-colors text-xs">gh</a>
+            <a href="mailto:dev.leobell@gmail.com" class="w-9 h-9 flex items-center justify-center border border-beige/20 rounded-md text-beige/70 hover:text-accentpurple hover:border-accentpurple/50 transition-colors text-xs">@</a>
+            <div class="w-px h-20 bg-beige/20 mt-2"></div>
+        </div>
+        <p class="text-[10px] tracking-widest text-beige/40 [writing-mode:vertical-rl] rotate-180">© 2026 Leonardo</p>
+    </aside>
+    <div class="flex md:hidden items-center justify-between px-6 py-5 fixed top-0 left-0 right-0 z-50 bg-ink/90 backdrop-blur-sm border-b border-white/10">
+        <a href="./index.html" class="text-xs tracking-widest uppercase text-beige/70">Home</a>
+        <div class="flex gap-5">
+            <a href="https://www.linkedin.com/in/leonardo-tabe-bell" target="_blank" class="text-beige/60 text-xs">in</a>
+            <a href="https://github.com/leobell" target="_blank" class="text-beige/60 text-xs">gh</a>
+        </div>
+    </div>
+
+    <div class="hidden md:block absolute right-0 top-0 bottom-0 w-32 z-0 overflow-hidden pointer-events-none">
+        <div class="absolute right-10 top-0 w-px h-full bg-gradient-to-b from-transparent via-accentpurple/50 to-transparent animate-[drift_9s_ease-in-out_infinite]"></div>
+        <div class="absolute right-20 top-0 w-px h-full bg-gradient-to-b from-transparent via-accentblue/50 to-transparent animate-[drift_12s_ease-in-out_infinite_1.5s]"></div>
+    </div>
+
+    <section class="relative z-10 px-6 md:pl-32 md:pr-16 lg:pl-40 pt-32 pb-24 md:py-24 max-w-4xl">
+        <h1 class="reveal font-serif text-[18vw] md:text-[9vw] leading-none text-beige mb-16">About</h1>
+        <p class="reveal font-serif text-2xl md:text-4xl leading-snug text-beige mb-16 max-w-2xl">
+        I'm Leonardo. A full-stack developer, builder and problem solver.
+        </p>
+        <div class="space-y-6 max-w-2xl text-beige/70 text-base leading-relaxed">
+        <p class="reveal reveal-delay-2">The intersection of logic and design has always pulled me in — from my first lines of HTML to building complete MERN applications today. I like understanding a problem fully before writing a single line of code.</p>
+        <p class="reveal reveal-delay-2">Over time I've worked across the full stack: data modeling, REST APIs, authentication, media handling, and the interfaces people actually interact with. Each project, small or big, has been a building block for where I am now.</p>
+        <p class="reveal reveal-delay-2">What excites me most is owning a problem end to end — from the database schema to the pixel on screen — and shipping something that actually works for real users.</p>
+        </div>
+    </section>
+
+    <footer class="relative z-10 max-w-5xl mx-auto px-6 py-16 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 md:hidden">
+        <p class="text-beige/50 text-sm">© 2026 Leonardo Bell</p>
+        <div class="flex gap-6">
+            <a href="https://github.com/leobell" target="_blank" class="text-beige/60 hover:text-accentpurple transition-colors text-sm">GitHub</a>
+            <a href="https://www.linkedin.com/in/leonardo-tabe-bell" target="_blank" class="text-beige/60 hover:text-accentblue transition-colors text-sm">LinkedIn</a>
+            <a href="mailto:dev.leobell@gmail.com" class="text-beige/60 hover:text-accentpurple transition-colors text-sm">Email</a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
